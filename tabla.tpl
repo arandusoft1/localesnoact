@@ -23,12 +23,12 @@
                 <th>Cantidad de Precios</th>
             </tr>
                 
-            % for name in names:
+            % for post in posts:
             <tr> 
-                <th>{{name}}</th>
-                <th>Sucursal</th>
-                <th>fVigencia</th>
-                <th>CantPrecio</th>
+                <th>{{post[0]}}</th>
+                <th>{{post[1]}}</th>
+                <th>{{post[2]}}</th>
+                <th>{{post[3]}}</th>
             </tr> 
             % end            
             
