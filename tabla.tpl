@@ -23,12 +23,12 @@
                 <th>Cantidad de Precios</th>
             </tr>
                 
-            % for elemento in leer:
+            % for empre in Empresa:
             <tr> 
-                <th>{{elemento.Empresa}}</th>
-                <th>{{elemento.Sucursal}}</th>
-                <th>{{elemento.fVigencia}}</th>
-                <th>{{elemento.CantPrecio}}</th>
+                <th>{{empre}}</th>
+                <th>elemento.Sucursal</th>
+                <th>elemento.fVigencia</th>
+                <th>elemento.CantPrecio</th>
             </tr> 
             % end            
             
