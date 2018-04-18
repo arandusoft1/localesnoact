@@ -12,7 +12,7 @@ bottle.debug(True)
 def index():
 	leer = json.loads(open('locales.json').read())	
 				
-	return template('tabla.tpl')
+	return template('tabla.tpl', leer)
 
 if __name__ == '__main__':
 	run(host='0.0.0.0',port=argv[1])
