@@ -21,25 +21,25 @@
   {
     "NomLocal": "XXX",
     "fVigencia": "Mon, 10 Feb 2014 00:00:00 GMT", 
-    "idLocal": 108
+    "idLocal": 108,
     "CantidadPro": 64
   }, 
   {
     "NomLocal": "YXX",
     "fVigencia": "Tue, 26 Dec 2017 00:00:00 GMT", 
-    "idLocal": 142
+    "idLocal": 142,
     "CantidadPro": 78
   }, 
   {
     "NomLocal": "YY",
     "fVigencia": "Mon, 10 Feb 2014 00:00:00 GMT", 
-    "idLocal": 205
+    "idLocal": 205,
     "CantidadPro": 32
   }, 
   {
   "NomLocal": "YYY",
     "fVigencia": "Mon, 05 Mar 2018 00:00:00 GMT", 
-    "idLocal": 206
+    "idLocal": 206,
     "CantidadPro": 77
   }
   ]
