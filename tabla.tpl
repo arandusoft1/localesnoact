@@ -1,6 +1,6 @@
 <html>
     <head>
-        <h1>{{title}}</h1>
+        <h1>Estado de Vigencia de Empresas</h1>
         <style>
             table, th, td {
                 border: 1px solid black;
