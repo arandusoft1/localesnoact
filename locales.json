@@ -1,0 +1,45 @@
+[
+  {
+    "NomLocal": XX,
+    "fVigencia": "Tue, 02 Nov 2010 18:24:52 GMT", 
+    "idLocal": 5,
+    "CantidadPro": 100
+  }, 
+  {
+    "NomLocal": XY,
+    "fVigencia": "Tue, 26 Dec 2017 00:00:00 GMT", 
+    "idLocal": 91,
+    "CantidadPro": 80
+    
+  }, 
+  {
+    "NombLocal":XXY,
+    "fVigencia": "Mon, 10 Feb 2014 00:00:00 GMT", 
+    "idLocal": 105,
+    "CantidadPro": 55
+  }, 
+  {
+    "NomLocal": XXX,
+    "fVigencia": "Mon, 10 Feb 2014 00:00:00 GMT", 
+    "idLocal": 108
+    "CantidadPro": 64
+  }, 
+  {
+    "NomLocal": YXX,
+    "fVigencia": "Tue, 26 Dec 2017 00:00:00 GMT", 
+    "idLocal": 142
+    "CantidadPro": 78
+  }, 
+  {
+    "NomLocal": YY,
+    "fVigencia": "Mon, 10 Feb 2014 00:00:00 GMT", 
+    "idLocal": 205
+    "CantidadPro": 32
+  }, 
+  {
+  "NomLocal": YYY,
+    "fVigencia": "Mon, 05 Mar 2018 00:00:00 GMT", 
+    "idLocal": 206
+    "CantidadPro": 77
+  }
+  ]
