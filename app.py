@@ -11,7 +11,7 @@ bottle.debug(True)
 @route('/')
 def index():
 	leer = json.loads(open('locales.json').read())	
-	tabla = " hola "
+	tabla = " <h2>Styling Tables</h2> "
 	
 		
 	return tabla
