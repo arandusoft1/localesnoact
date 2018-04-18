@@ -11,11 +11,7 @@ bottle.debug(True)
 @route('/')
 def index():
 	leer = json.loads(open('locales.json').read())	
-	tabla = "<!DOCTYPE html>
-<html>
-<head>
-
-</head>
+	tabla = "
 <body>
 
 <h2>Collapsed Borders</h2>
@@ -45,7 +41,6 @@ def index():
 </table>
 
 </body>
-</html>
 "
 	
 		
