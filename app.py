@@ -11,7 +11,7 @@ bottle.debug(True)
 @route('/')
 def index():
 	leer = json.loads(open('locales.json').read())	
-	tabla = " <table style=" + '"width:100%"'+ "> <tr> <th>Firstname</th> <th>Lastname</th> <th>Age</th> </tr> <tr> <td>Jill</td> <td>Smith</td> <td>50</td> </tr> </table> "
+	tabla = " <table style=" + '"width:100%" background-color: #f1f1c1 '+ "> <tr> <th>Firstname</th> <th>Lastname</th> <th>Age</th> </tr> <tr> <td>Jill</td> <td>Smith</td> <td>50</td> </tr> </table> "
 	
 		
 	return tabla
