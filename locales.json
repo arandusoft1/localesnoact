@@ -1,44 +1,44 @@
 [
   {
     "Empresa": "XX",
-    "Sucursal": "Resistencia"
+    "Sucursal": "Resistencia",
     "fVigencia": "Tue, 02 Nov 2010 18:24:52 GMT",
     "CantPrecio": 100
   }, 
   {
     "NomLocal": "XY",
-    "Sucursal": "Corrientes"
+    "Sucursal": "Corrientes",
     "fVigencia": "Tue, 26 Dec 2017 00:00:00 GMT",
     "CantPrecio": 80
     
   }, 
   {
     "NomLocal": "XXY",
-    "Sucursal": "Posadas"
+    "Sucursal": "Posadas",
     "fVigencia": "Mon, 10 Feb 2014 00:00:00 GMT",
     "CantPrecio": 55
   }, 
   {
     "NomLocal": "XXX",
-    "Sucursal": "Posadas"
+    "Sucursal": "Posadas",
     "fVigencia": "Mon, 10 Feb 2014 00:00:00 GMT",
     "CantPrecio": 64
   }, 
   {
     "NomLocal": "YXX",
-    "Sucursal": "Curuzu"
+    "Sucursal": "Curuzu",
     "fVigencia": "Tue, 26 Dec 2017 00:00:00 GMT",
     "CantPrecio": 78
   }, 
   {
     "NomLocal": "YY",
-    "Sucursal": "Curuzu"
+    "Sucursal": "Curuzu",
     "fVigencia": "Mon, 10 Feb 2014 00:00:00 GMT",
     "CantPrecio": 32
   }, 
   {
     "NomLocal": "YYY",
-    "Sucursal": "Posadas"
+    "Sucursal": "Posadas",
     "fVigencia": "Mon, 05 Mar 2018 00:00:00 GMT",
     "CantPrecio": 77
   }
