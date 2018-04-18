@@ -16,7 +16,7 @@ def index():
 	for elemento in leer:
 		tabla = tabla + "<tr> <td>"+ elemento["Empresa"] +"</td> <td>"+elemento["Sucursal"]+"</td> <td>"+elemento["fVigencia"]+"</td> <td>"+ str(elemento["CantPrecio"])+" </td> </tr> "
 		
-	tabla = tabla +  </table>
+	tabla = tabla +  "</table> "
 			
 	return tabla
 
