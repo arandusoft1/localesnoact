@@ -11,11 +11,49 @@ bottle.debug(True)
 @route('/')
 def index():
 	leer = json.loads(open('locales.json').read())	
-	tabla = "|&nbsp;&nbsp;&nbsp;Nombre local&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fecha de Vigencia&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;Cantidad de Producto&nbsp;&nbsp;|"
+	tabla = "<!DOCTYPE html>
+<html>
+<head>
+<style>
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+</style>
+</head>
+<body>
+
+<h2>Collapsed Borders</h2>
+<p>If you want the borders to collapse into one border, add the CSS border-collapse property.</p>
+
+<table style="width:100%">
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th> 
+    <th>Age</th>
+  </tr>
+  <tr>
+    <td>Jill</td>
+    <td>Smith</td>
+    <td>50</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td>
+    <td>94</td>
+  </tr>
+  <tr>
+    <td>John</td>
+    <td>Doe</td>
+    <td>80</td>
+  </tr>
+</table>
+
+</body>
+</html>
+"
 	
-	for elemento in leer:
-		tabla = tabla + '<br />\n' + "|&nbsp;" + elemento["NomLocal"] + "&nbsp;"*(21-len(elemento["NomLocal"])) + "|&nbsp;" + elemento["fVigencia"] + "&nbsp;"*(30-len(elemento["fVigencia"])) + "|&nbsp;" + str(elemento["CantidadPro"]) + "&nbsp;"*(21-len(str(elemento["CantidadPro"]))) + "|"
-			
+		
 	return tabla
 
 if __name__ == '__main__':
