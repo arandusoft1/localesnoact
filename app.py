@@ -14,7 +14,7 @@ def index():
 	tabla = "|   Nombre local   |       Fecha de Vigencia         |  Cantidad de Producto  |"
 	
 	for elemento in leer:
-		tabla = tabla + '\n' + "| " + elemento["NomLocal"] + "  "*(11-len(elemento["NomLocal"])) + "| " + elemento["fVigencia"] + "  "*(30-len(elemento["fVigencia"])) + "| " + str(elemento["CantidadPro"]) + "  "*(21-len(str(elemento["CantidadPro"]))) + "|"
+		tabla = tabla + '<br />\n' + "| " + elemento["NomLocal"] + "  "*(11-len(elemento["NomLocal"])) + "| " + elemento["fVigencia"] + "  "*(30-len(elemento["fVigencia"])) + "| " + str(elemento["CantidadPro"]) + "  "*(21-len(str(elemento["CantidadPro"]))) + "|"
 			
 	return tabla
 
