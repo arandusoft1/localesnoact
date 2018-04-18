@@ -1,45 +1,38 @@
 <html>
-<head>
-<style>
-table, th, td {
-    border: 1px solid black;
-    border-collapse: collapse;
-}
-th, td {
-    padding: 5px;
-}
-th {
-    text-align: left;
-}
-</style>
-</head>
-<body>
+    <head>
+        <h1>{{title}}</h1>
+        <style>
+            table, th, td {
+                border: 1px solid black;
+                border-collapse: collapse;
+            }
+            th, td {
+                padding: 5px;
+            }
+            th {
+                text-align: left;
+            }
+        </style>
+    </head>
+    <body>
+        <table style="width:100%">
+            <tr>
+                <th>Empresa</th>
+                <th>Sucursal</th> 
+                <th>Fecha de Vigencia</th>
+                <th>Cantidad de Precios</th>
+            </tr>
+                
+            % for elemento in leer:
+            <tr> 
+                <th>{{elemento.Empresa}}</th>
+                <th>{{elemento.Sucursal}}</th>
+                <th>{{elemento.fVigencia}}</th>
+                <th>{{elemento.CantPrecio}}</th>
+            </tr> 
+            % end            
+            
+        </table>
 
-<h2>Left-align Headings</h2>
-<p>To left-align the table headings, use the CSS text-align property.</p>
-
-<table style="width:100%">
-  <tr>
-    <th>Firstname</th>
-    <th>Lastname</th> 
-    <th>Age</th>
-  </tr>
-  <tr>
-    <td>Jill</td>
-    <td>Smith</td>
-    <td>50</td>
-  </tr>
-  <tr>
-    <td>Eve</td>
-    <td>Jackson</td>
-    <td>94</td>
-  </tr>
-  <tr>
-    <td>John</td>
-    <td>Doe</td>
-    <td>80</td>
-  </tr>
-</table>
-
-</body>
+    </body>
 </html>
