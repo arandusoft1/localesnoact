@@ -6,38 +6,38 @@
     "CantPrecio": 100
   }, 
   {
-    "NomLocal": "XY",
+    "Empresa": "XY",
     "Sucursal": "Corrientes",
     "fVigencia": "Tue, 26 Dec 2017 00:00:00 GMT",
     "CantPrecio": 80
     
   }, 
   {
-    "NomLocal": "XXY",
+    "Empresa": "XXY",
     "Sucursal": "Posadas",
     "fVigencia": "Mon, 10 Feb 2014 00:00:00 GMT",
     "CantPrecio": 55
   }, 
   {
-    "NomLocal": "XXX",
+    "Empresa": "XXX",
     "Sucursal": "Posadas",
     "fVigencia": "Mon, 10 Feb 2014 00:00:00 GMT",
     "CantPrecio": 64
   }, 
   {
-    "NomLocal": "YXX",
+    "Empresa": "YXX",
     "Sucursal": "Curuzu",
     "fVigencia": "Tue, 26 Dec 2017 00:00:00 GMT",
     "CantPrecio": 78
   }, 
   {
-    "NomLocal": "YY",
+    "Empresa": "YY",
     "Sucursal": "Curuzu",
     "fVigencia": "Mon, 10 Feb 2014 00:00:00 GMT",
     "CantPrecio": 32
   }, 
   {
-    "NomLocal": "YYY",
+    "Empresa": "YYY",
     "Sucursal": "Posadas",
     "fVigencia": "Mon, 05 Mar 2018 00:00:00 GMT",
     "CantPrecio": 77
