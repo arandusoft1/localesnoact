@@ -1,10 +1,11 @@
 <html>
     <head>
-        <h1>Estado de Vigencia de Empresas</h1>
+        <h1 align="center">Estado de Vigencia de Empresas</h1>
         <style>
             table, th, td {
                 border: 2px solid black;
                 border-collapse: collapse;
+		align="center"
             }
             th, td {
                 padding: 5px;
@@ -42,7 +43,7 @@
         </style>
     </head>
     <body bgcolor=#f1f1c1>
-        <table style="width:80%" align="center">
+        <table style="width:80%">
             <tr>
                 <th>Empresa</th>
                 <th>Sucursal</th> 
