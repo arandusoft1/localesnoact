@@ -23,13 +23,14 @@
                 <th>Cantidad de Precios</th>
             </tr>
             
-            %for elemento in Empresas:               
+            %for elemento in Empresas: 
+                %for i in range(1):
                     <tr>
-                        <td>{{elemento}}</td> 
-                        <td>{{elemento}}</td>                   
-                        <td>{{elemento}}</td> 
-                        <td>{{elemento}}</td> 
-                    </tr>                      
+                        %for r in elemento:
+                            <td>{{elemento[r][i]}}</td>
+                        %end
+                    </tr>
+                %end                   
             %end 
             
         </table>
