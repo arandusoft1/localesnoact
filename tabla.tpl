@@ -23,13 +23,12 @@
                 <th>Cantidad de Precios</th>
             </tr>
                 
-            % for elemento in Empresas:
-            <tr> 
-                <th>{{elemento.Empresa}}</th>
-                <th>{{elemento.Sucursal}}</th>
-                <th>{{elemento.fVigencia[2]}}</th>
-                <th>{{elemento.CantPrecio}}</th>
-            </tr> 
+            % for elementos in Empresas:
+                <tr> 
+                    % for elemento in elementos:
+                        <th>{{elemento}}</th>
+                    % end
+                </tr> 
             % end            
             
         </table>
