@@ -15,6 +15,10 @@
             table .rojo {
                 background-color:red;
             }
+            table .verde {
+                background-color:green;
+            }
+            
         </style>
     </head>
     <body>
@@ -35,6 +39,13 @@
                         <td>{{elemento['fVigencia']}}</td> 
                         <td>{{elemento['CantPrecio']}}</td> 
                     </tr>
+                %elif elemento['fVigencia'] == UltAct['fVigencia']:
+                    <tr class="verde">
+                        <td>{{elemento['Empresa']}}</td> 
+                        <td>{{elemento['Sucursal']}}</td> 
+                        <td>{{elemento['fVigencia']}}</td> 
+                        <td>{{elemento['CantPrecio']}}</td> 
+                    </tr>             
                 %else:
                         <tr>
                             <td>{{elemento['Empresa']}}</td> 
