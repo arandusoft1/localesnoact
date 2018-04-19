@@ -13,7 +13,7 @@ def index():
 	leer['posts'] = json.loads(open('locales.json').read())	
 	prueba = {'title': 'Welcome Home!', 'names': ['John', 'Paul', 'George', 'Ringo']}
 	
-	return template('tabla.tpl', leer)
+	return template('tabla.tpl', leer['posts'])
 
 if __name__ == '__main__':
 	run(host='0.0.0.0',port=argv[1])
