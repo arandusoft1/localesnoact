@@ -11,7 +11,7 @@ bottle.debug(True)
 
 @route('/')
 def index():
-	leer = json.dumps(open('locales.json').read())	
+	leer = json.loads(open('locales.json').read())	
 	prueba = {'title': 'Welcome Home!', 'names': ['John', 'Paul', 'George', 'Ringo']}
 	
 	return template('tabla.tpl', leer)
