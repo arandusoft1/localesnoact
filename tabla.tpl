@@ -12,6 +12,9 @@
             th {
                 text-align: left;
             }
+            table .rojo {
+                background-color:red;
+            }
         </style>
     </head>
     <body>
@@ -23,13 +26,22 @@
                 <th>Cantidad de Precios</th>
             </tr>
             
-            %for elemento in Empresas: 
-                <tr>
-                    <td>{{elemento['Empresa']}}</td> 
-                    <td>{{elemento['Sucursal']}}</td> 
-                    <td>{{elemento['fVigencia']}}</td> 
-                    <td>{{elemento['CantPrecio']}}</td> 
-                </tr>
+            %for elemento in Empresas:
+                % if elemento['fVigencia'] == "Tue, 02 Nov 2010 18:24:52 GMT":
+                    <tr class="rojo">
+                        <td>{{elemento['Empresa']}}</td> 
+                        <td>{{elemento['Sucursal']}}</td> 
+                        <td>{{elemento['fVigencia']}}</td> 
+                        <td>{{elemento['CantPrecio']}}</td> 
+                    </tr>
+                %else:
+                        <tr>
+                            <td>{{elemento['Empresa']}}</td> 
+                            <td>{{elemento['Sucursal']}}</td> 
+                            <td>{{elemento['fVigencia']}}</td> 
+                            <td>{{elemento['CantPrecio']}}</td> 
+                        </tr>
+                        
             %end 
             
         </table>
