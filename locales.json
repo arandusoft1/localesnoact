@@ -1,45 +1,47 @@
-[
-  {
-    "Empresa": "XX",
-    "Sucursal": "Resistencia",
-    "fVigencia": "Tue, 02 Nov 2010 18:24:52 GMT",
-    "CantPrecio": 100
-  }, 
-  {
-    "Empresa": "XY",
-    "Sucursal": "Corrientes",
-    "fVigencia": "Tue, 26 Dec 2017 00:00:00 GMT",
-    "CantPrecio": 80
+{
+  "Empresas": [
+    {
+      "Empresa": "XX",
+      "Sucursal": "Resistencia",
+      "fVigencia": "Tue, 02 Nov 2010 18:24:52 GMT",
+      "CantPrecio": 100
+    },     
+    {
+      "Empresa": "XY",
+      "Sucursal": "Corrientes",
+      "fVigencia": "Tue, 26 Dec 2017 00:00:00 GMT",
+      "CantPrecio": 80
     
-  }, 
-  {
-    "Empresa": "XXY",
-    "Sucursal": "Posadas",
-    "fVigencia": "Mon, 10 Feb 2014 00:00:00 GMT",
-    "CantPrecio": 55
-  }, 
-  {
-    "Empresa": "XXX",
-    "Sucursal": "Posadas",
-    "fVigencia": "Mon, 10 Feb 2014 00:00:00 GMT",
-    "CantPrecio": 64
-  }, 
-  {
-    "Empresa": "YXX",
-    "Sucursal": "Curuzu",
-    "fVigencia": "Tue, 26 Dec 2017 00:00:00 GMT",
-    "CantPrecio": 78
-  }, 
-  {
-    "Empresa": "YY",
-    "Sucursal": "Curuzu",
-    "fVigencia": "Mon, 10 Feb 2014 00:00:00 GMT",
-    "CantPrecio": 32
-  }, 
-  {
-    "Empresa": "YYY",
-    "Sucursal": "Posadas",
-    "fVigencia": "Mon, 05 Mar 2018 00:00:00 GMT",
-    "CantPrecio": 77
-  }
+    }, 
+    {
+      "Empresa": "XXY",
+      "Sucursal": "Posadas",
+      "fVigencia": "Mon, 10 Feb 2014 00:00:00 GMT",
+      "CantPrecio": 55
+    }, 
+    {
+      "Empresa": "XXX",
+      "Sucursal": "Posadas",
+      "fVigencia": "Mon, 10 Feb 2014 00:00:00 GMT",
+      "CantPrecio": 64
+    }, 
+    {
+      "Empresa": "YXX",
+      "Sucursal": "Curuzu",
+      "fVigencia": "Tue, 26 Dec 2017 00:00:00 GMT",
+      "CantPrecio": 78
+    }, 
+    {
+      "Empresa": "YY",
+      "Sucursal": "Curuzu",
+      "fVigencia": "Mon, 10 Feb 2014 00:00:00 GMT",
+      "CantPrecio": 32
+    }, 
+    {
+      "Empresa": "YYY",
+      "Sucursal": "Posadas",
+      "fVigencia": "Mon, 05 Mar 2018 00:00:00 GMT",
+      "CantPrecio": 77
+    }
   ]
+}
