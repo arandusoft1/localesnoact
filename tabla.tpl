@@ -3,7 +3,7 @@
         <h1>Estado de Vigencia de Empresas</h1>
         <style>
             table, th, td {
-                border: 1px solid black;
+                border: 2px solid black;
                 border-collapse: collapse;
             }
             th, td {
@@ -22,6 +22,21 @@
             }
             table .verde {
                 background-color:#118c11;
+            }
+            table td:first-child {
+                width: 100px;
+            }
+ 
+            table td:nth-child(2) {
+	            width: 100px;
+            }
+ 
+            table td:nth-child(3) {
+	            width: 200px;
+            }
+ 
+            table td:last-child {
+	            width: 150px;
             }
             
         </style>
