@@ -32,7 +32,7 @@
             }
  
             table td:nth-child(3) {
-	            width: 100px;
+	            width: 250px;
             }
  
             table td:last-child {
@@ -42,7 +42,7 @@
         </style>
     </head>
     <body bgcolor=#f1f1c1>
-        <table style="width:80%">
+        <table style="width:80%" style="margin: 0 auto;">
             <tr>
                 <th>Empresa</th>
                 <th>Sucursal</th> 
