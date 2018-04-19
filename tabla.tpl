@@ -22,14 +22,14 @@
                 <th>Fecha de Vigencia</th>
                 <th>Cantidad de Precios</th>
             </tr>
-                
-            % for elementos in Empresas:
-                <tr> 
-                    % for elemento in elementos:
-                        <th>{{elemento}}</th>
-                    % end
-                </tr> 
-            % end            
+            
+            %for i in range(1):
+                <tr>
+                    %for r in Empresas:
+                        <td>{{rows[r][i]}}</td>
+                    %end
+                </tr>
+            %end            
             
         </table>
 
