@@ -24,7 +24,7 @@
     <body>
         <table style="width:100%">
             <tr>
-                <th>UltAct[0]['fVigencia']['Fecha']</th>
+                <th>Empresa</th>
                 <th>Sucursal</th> 
                 <th>Fecha de Vigencia</th>
                 <th>Cantidad de Precios</th>
@@ -40,9 +40,10 @@
                
                 % eltoVigencia = elemento['fVigencia']                
                 % d2=datetime.strptime(eltoVigencia,fmt)   #Elemento vigencia
-                % diff= ((d1-d2).seconds)/3600.0          
+                % diffseg= ((d1-d2).seconds)/3600.0  
+                % diffdias= (d1-d2).days
                 
-                %if diff > 24 :
+                %if diffseg > 24 or diffdias = 0 :
                     <tr class="rojo">
                         <td>{{elemento['Empresa']}}</td> 
                         <td>{{elemento['Sucursal']}}</td> 
