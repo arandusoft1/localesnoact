@@ -42,7 +42,7 @@
         </style>
     </head>
     <body bgcolor=#f1f1c1>
-        <table style="width:80%" style="margin: 0 auto;">
+        <table style="width:80%" align="center">
             <tr>
                 <th>Empresa</th>
                 <th>Sucursal</th> 
