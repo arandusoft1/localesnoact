@@ -1,5 +1,5 @@
 <html>
-    <head>
+    <head style="background-color:#f1f1c1>
         <h1>Estado de Vigencia de Empresas</h1>
         <style>
             table, th, td {
