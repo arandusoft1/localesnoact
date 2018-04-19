@@ -31,7 +31,7 @@
             </tr>
             
              % from datetime import datetime
-             % fmt = '%Y-%m-%d %H:%M:%S'
+             % fmt = '%d-%m-%Y %H:%M:%S'
              % ultVigencia = "26/12/17 00:00:00" #UltAct[0]['fVigencia']['Fecha'] + ' ' + UltAct[0]['fVigencia']['Hora']
              % d1 = datetime.strptime(ultVigencia,fmt) #Ultima vigencia
              
