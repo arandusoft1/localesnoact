@@ -4,8 +4,8 @@
       "Empresa": "XX",
       "Sucursal": "Resistencia",
       "fVigencia":  {
-        "Fecha": [02,10,10],
-        "Hora": [18,24]
+        "Fecha": [02/10/10],
+        "Hora": [18:24]
       },      
       "CantPrecio": 100
     },     
@@ -13,8 +13,8 @@
       "Empresa": "XY",
       "Sucursal": "Corrientes",
       "fVigencia":  {
-        "Fecha": [26,12,17],
-        "Hora": [00,00]
+        "Fecha": [26/12/17],
+        "Hora": [00:00]
       },
       "CantPrecio": 80
     
@@ -23,8 +23,8 @@
       "Empresa": "XXY",
       "Sucursal": "Posadas",
       "fVigencia":  {
-        "Fecha": [10,2,14],
-        "Hora": [00,00]
+        "Fecha": [10/2/14],
+        "Hora": [00:00]
       }, 
       "CantPrecio": 55
     }, 
@@ -32,8 +32,8 @@
       "Empresa": "XXX",
       "Sucursal": "Posadas",
       "fVigencia":  {
-        "Fecha": [10,2,14],
-        "Hora": [00,00]
+        "Fecha": [10/2/14],
+        "Hora": [00:00]
       }, 
       "CantPrecio": 64
     }, 
@@ -41,8 +41,8 @@
       "Empresa": "YXX",
       "Sucursal": "Curuzu",
       "fVigencia":  {
-        "Fecha": [26,12,17],
-        "Hora": [00,00]
+        "Fecha": [26/12/17],
+        "Hora": [00:00]
       }, 
       "CantPrecio": 78
     }, 
@@ -50,8 +50,8 @@
       "Empresa": "YY",
       "Sucursal": "Curuzu",
       "fVigencia":  {
-        "Fecha": [10,2,14],
-        "Hora": [00,00]
+        "Fecha": [10/2/14],
+        "Hora": [00:00]
       }, 
       "CantPrecio": 32
     }, 
@@ -59,8 +59,8 @@
       "Empresa": "YYY",
       "Sucursal": "Posadas",
       "fVigencia":  {
-        "Fecha": [05,03,18],
-        "Hora": [00,00]
+        "Fecha": [05/03/18],
+        "Hora": [00:00]
       }, 
       "CantPrecio": 77
     }
@@ -68,8 +68,8 @@
   "UltAct": [
     {
       "fVigencia":  {
-        "Fecha": [05,03,18],
-        "Hora": [00,00]
+        "Fecha": [05/03/18],
+        "Hora": [00:00]
       },  
     }
   ]
