@@ -15,6 +15,7 @@
         </style>
     </head>
     <body>
+    a = "1"
         <table style="width:100%">
             <tr>
                 <th>Empresa</th>
@@ -26,7 +27,7 @@
             %for elemento in Empresas:            
                 %for r in elemento:
                     <tr>
-                       <td>{{elemento[r][range(1)]}}</td>                   
+                       <td>{{elemento[r][a]}}</td>                   
                     </tr>
                 %end       
             %end 
