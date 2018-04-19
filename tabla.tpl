@@ -5,7 +5,6 @@
             table, th, td {
                 border: 2px solid black;
                 border-collapse: collapse;
-		align="center"
             }
             th, td {
                 padding: 5px;
@@ -43,7 +42,7 @@
         </style>
     </head>
     <body bgcolor=#f1f1c1>
-        <table style="width:80%">
+        <table style="width:80%" align="center">
             <tr>
                 <th>Empresa</th>
                 <th>Sucursal</th> 
