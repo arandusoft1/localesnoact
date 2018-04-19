@@ -23,12 +23,12 @@
                 <th>Cantidad de Precios</th>
             </tr>
                 
-            % for post in posts:
+            % for elemento in Empresas:
             <tr> 
-                <th>{{post[0]}}</th>
-                <th>{{post[1]}}</th>
-                <th>{{post[2]}}</th>
-                <th>{{post[3]}}</th>
+                <th>{{elemento[0]}}</th>
+                <th>{{elemento[1]}}</th>
+                <th>{{elemento[2]}}</th>
+                <th>{{elemento[3]}}</th>
             </tr> 
             % end            
             
