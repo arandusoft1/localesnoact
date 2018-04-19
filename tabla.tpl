@@ -25,10 +25,10 @@
                 
             % for elemento in Empresas:
             <tr> 
-                <th>{{elemento[0]}}</th>
-                <th>{{elemento[1]}}</th>
-                <th>{{elemento[2]}}</th>
-                <th>{{elemento[3]}}</th>
+                <th>{{elemento.Empresa}}</th>
+                <th>{{elemento.Sucursal}}</th>
+                <th>{{elemento.fVigencia[2]}}</th>
+                <th>{{elemento.CantPrecio}}</th>
             </tr> 
             % end            
             
