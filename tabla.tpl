@@ -31,8 +31,8 @@
             </tr>
             
              % from datetime import datetime
-             % fmt = '%Y-%m-%d %H:%M:%S'
-             % ultVigencia = '2014-12-04 08:10:32' #UltAct[0]['fVigencia']['Fecha'] + ' ' + UltAct[0]['fVigencia']['Hora']
+             % fmt = '%d/%m/%y %H:%M:%S'
+             % ultVigencia = '05/03/18 00:00:00' #UltAct[0]['fVigencia']['Fecha'] + ' ' + UltAct[0]['fVigencia']['Hora']
              % d1 = datetime.strptime(ultVigencia,fmt) #Ultima vigencia
              
             %for elemento in Empresas:
