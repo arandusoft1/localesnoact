@@ -8,10 +8,8 @@
             }
             th, td {
                 padding: 5px;
-            }
-            td {
                 font-weight: bold;
-            }
+            }            
             th {
                 text-align: left;
             }
