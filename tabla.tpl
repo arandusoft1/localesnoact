@@ -26,7 +26,7 @@
             % a = "1"
             %for elemento in Empresas:               
                     <tr>
-                        <td>{{elemento[0][0]}}</td> 
+                        <td>{{elemento[1][0]}}</td> 
                         <td>{{elemento[1][0]}}</td>                   
                         <td>{{elemento[2][0]}}</td> 
                         <td>{{elemento[3][0]}}</td> 
