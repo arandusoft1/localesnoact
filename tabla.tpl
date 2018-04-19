@@ -24,12 +24,13 @@
             </tr>
             
             % a = "1"
-            %for elemento in Empresas:            
-                %for r in elemento:
+            %for elemento in Empresas:               
                     <tr>
-                       <td>{{elemento[r][a]}}</td>                   
-                    </tr>
-                %end       
+                        <td>{{elemento[1][1]}}</td> 
+                        <td>{{elemento[2][1]}}</td>                   
+                        <td>{{elemento[3][1]}}</td> 
+                        <td>{{elemento[4][1]}}</td> 
+                    </tr>                      
             %end 
             
         </table>
