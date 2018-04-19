@@ -27,7 +27,8 @@
             </tr>
             
             %for elemento in Empresas:
-                % if elemento['fVigencia'] == "Tue, 02 Nov 2010 18:24:52 GMT":
+            
+                %if elemento['fVigencia'] == "Tue, 02 Nov 2010 18:24:52 GMT":
                     <tr class="rojo">
                         <td>{{elemento['Empresa']}}</td> 
                         <td>{{elemento['Sucursal']}}</td> 
@@ -41,6 +42,7 @@
                             <td>{{elemento['fVigencia']}}</td> 
                             <td>{{elemento['CantPrecio']}}</td> 
                         </tr>
+                 %end   
                         
             %end 
             
