@@ -47,7 +47,7 @@
                 % diffdias= (d1-d2).days
                 
                 %if diffseg > 24 or diffdias > 0 :
-                    <tr class="rojo">
+                    <tr class="rojo" font-weight: bold>
                         <td>{{elemento['Empresa']}}</td> 
                         <td>{{elemento['Sucursal']}}</td> 
                         <td>{{elemento['fVigencia']}}</td> 
