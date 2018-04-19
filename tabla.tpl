@@ -24,15 +24,15 @@
                 background-color:#118c11;
             }
             table td:first-child {
-                width: 100px;
+                width: 200px;
             }
  
             table td:nth-child(2) {
-	            width: 100px;
+	            width: 150px;
             }
  
             table td:nth-child(3) {
-	            width: 200px;
+	            width: 100px;
             }
  
             table td:last-child {
@@ -42,7 +42,7 @@
         </style>
     </head>
     <body bgcolor=#f1f1c1>
-        <table style="width:100%">
+        <table style="width:80%">
             <tr>
                 <th>Empresa</th>
                 <th>Sucursal</th> 
