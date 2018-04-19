@@ -23,13 +23,12 @@
                 <th>Cantidad de Precios</th>
             </tr>
             
-            % a = "1"
             %for elemento in Empresas:               
                     <tr>
-                        <td>{{elemento[1]}}</td> 
-                        <td>{{elemento[1]}}</td>                   
-                        <td>{{elemento[2]}}</td> 
-                        <td>{{elemento[3]}}</td> 
+                        <td>{{elemento}}</td> 
+                        <td>{{elemento}}</td>                   
+                        <td>{{elemento}}</td> 
+                        <td>{{elemento}}</td> 
                     </tr>                      
             %end 
             
