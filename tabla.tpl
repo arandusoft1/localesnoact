@@ -26,10 +26,10 @@
             % a = "1"
             %for elemento in Empresas:               
                     <tr>
-                        <td>{{elemento[1][0]}}</td> 
-                        <td>{{elemento[1][0]}}</td>                   
-                        <td>{{elemento[2][0]}}</td> 
-                        <td>{{elemento[3][0]}}</td> 
+                        <td>{{elemento[1]}}</td> 
+                        <td>{{elemento[1]}}</td>                   
+                        <td>{{elemento[2]}}</td> 
+                        <td>{{elemento[3]}}</td> 
                     </tr>                      
             %end 
             
