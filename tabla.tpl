@@ -26,7 +26,7 @@
             %for elemento in Empresas:            
                 %for r in elemento:
                     <tr>
-                       <td>{{elemento[r][1]}}</td>                   
+                       <td>{{elemento[r][range(1)]}}</td>                   
                     </tr>
                 %end       
             %end 
