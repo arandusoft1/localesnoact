@@ -9,6 +9,9 @@
             th, td {
                 padding: 5px;
             }
+            td {
+                font-weight: bold;
+            }
             th {
                 text-align: left;
             }
@@ -48,7 +51,7 @@
                 
                 %if diffseg > 24 or diffdias > 0 :
                     <tr class="rojo">
-                        <td font-weight: bold>{{elemento['Empresa']}}</td> 
+                        <td>{{elemento['Empresa']}}</td> 
                         <td>{{elemento['Sucursal']}}</td> 
                         <td>{{elemento['fVigencia']}}</td> 
                         <td>{{elemento['CantPrecio']}}</td> 
