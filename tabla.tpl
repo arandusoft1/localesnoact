@@ -15,7 +15,6 @@
         </style>
     </head>
     <body>
-    a = "1"
         <table style="width:100%">
             <tr>
                 <th>Empresa</th>
@@ -24,6 +23,7 @@
                 <th>Cantidad de Precios</th>
             </tr>
             
+            % a = "1"
             %for elemento in Empresas:            
                 %for r in elemento:
                     <tr>
