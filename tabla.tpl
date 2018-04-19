@@ -9,18 +9,19 @@
             th, td {
                 padding: 5px;
                 font-weight: bold;
-            }            
+                color: #000;
+            }           
             th {
-                text-align: left;
+                text-align: center;;
             }
             table .rojo {
-                background-color:red;
+                background-color:#bf5858;
             }
             table .amarillo {
-                background-color:yellow;
+                background-color:#cece1e;
             }
             table .verde {
-                background-color:green;
+                background-color:#118c11;
             }
             
         </style>
