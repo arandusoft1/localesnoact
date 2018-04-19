@@ -37,7 +37,7 @@
             %for elemento in Empresas:
                 
                
-                % eltoVigencia = elemento['fVigencia']['Fecha'] + ' ' + elemento['fVigencia']['Hora']                
+                % eltoVigencia = elemento['fVigencia']                
                 % d2=datetime.strptime(eltoVigencia,fmt)   #Elemento vigencia
                 % diff= ((d1-d2).seconds)/3600.0          
                 
