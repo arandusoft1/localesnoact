@@ -24,13 +24,10 @@
             </tr>
             
             %for elemento in Empresas: 
-                %for i in range(1):
-                    <tr>
-                        %for r in elemento:
-                            <td>{{elemento[r][i]}}</td>
-                        %end
-                    </tr>
-                %end                   
+                <td>{{elemento['Empresa']}}</td> 
+                <td>{{elemento['Sucursal']}}</td> 
+                <td>{{elemento['fVigencia']}}</td> 
+                <td>{{elemento['CantPrecio']}}</td> 
             %end 
             
         </table>
