@@ -15,6 +15,9 @@
             table .rojo {
                 background-color:red;
             }
+            table .amarillo {
+                background-color:yellow;
+            }
             table .verde {
                 background-color:green;
             }
@@ -58,7 +61,7 @@
                         <td>{{elemento['CantPrecio']}}</td> 
                     </tr>             
                 %else:
-                    <tr>
+                    <tr class="amarillo">
                         <td>{{elemento['Empresa']}}</td> 
                         <td>{{elemento['Sucursal']}}</td> 
                         <td>{{elemento['fVigencia']}}</td> 
