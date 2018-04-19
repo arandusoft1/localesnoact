@@ -33,7 +33,7 @@
       "Sucursal": "Posadas",
       "fVigencia":  {
         "Fecha": ["10/2/14"],
-        "Hora": ['00:00']
+        "Hora": ["00:00"]
       }, 
       "CantPrecio": 64
     }, 
