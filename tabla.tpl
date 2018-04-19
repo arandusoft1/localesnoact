@@ -24,7 +24,7 @@
             
         </style>
     </head>
-    <body style="background-color:#f1f1c1;>
+    <body>
         <table style="width:100%">
             <tr>
                 <th>Empresa</th>
