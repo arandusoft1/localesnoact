@@ -24,14 +24,14 @@
     <body>
         <table style="width:100%">
             <tr>
-                <th>Empresa</th>
+                <th>UltAct[0]['fVigencia']['Fecha']</th>
                 <th>Sucursal</th> 
                 <th>Fecha de Vigencia</th>
                 <th>Cantidad de Precios</th>
             </tr>
             
              % fmt = '%Y-%m-%d %H:%M:%S'
-             % ultVigencia = UltAct[0]['fVigencia']['Fecha'] + ' ' + UltAct[0]['fVigencia']['Hora']
+             % ultVigencia = "26/12/17 00:00:00" #UltAct[0]['fVigencia']['Fecha'] + ' ' + UltAct[0]['fVigencia']['Hora']
              % d1 = datetime.strptime(ultVigencia,fmt) #Ultima vigencia
              
             %for elemento in Empresas:
@@ -39,7 +39,7 @@
                
                 % eltoVigencia = elemento['fVigencia']['Fecha'] + ' ' + elemento['fVigencia']['Hora']                
                 % d2=datetime.strptime(eltoVigencia,fmt)   #Elemento vigencia
-                % diff= ((d1-d2).seconds)/3600.0
+                % diff= ((d1-d2).seconds)/3600.0          
                 
                 %if diff > 24 :
                     <tr class="rojo">
