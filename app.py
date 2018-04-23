@@ -19,14 +19,13 @@ def index():
 	empresas= []
 	
 	for row in rows:
-		empresas.append({"Empresa": row[1],"Sucursal": row[2],"fVigencia": row[3],"CantPrecio": row[4]})
-		
-	print empresas
+		# empresas.append({"Empresa": row[1],"Sucursal": row[2],"fVigencia": row[3],"CantPrecio": row[4]})
+		print rows
 	
-	leer = {"Empresas": [ empresas ], "UltAct": [{"fVigencia": "05/03/18 00:00:00"}]}
+	#leer = {"Empresas": [ empresas ], "UltAct": [{"fVigencia": "05/03/18 00:00:00"}]}
 	
 		
-	# leer = json.loads(open('locales.json').read())	
+	leer = json.loads(open('locales.json').read())	
 	return template('tabla.tpl', leer)
 
 if __name__ == '__main__':
