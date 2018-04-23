@@ -42,6 +42,9 @@
         </style>
     </head>
     <body bgcolor=#f1f1c1>
+    	% ultVigencia = UltAct[0]['fVigencia']
+	<strong>ultVigencia</strong>
+	
         <table style="width:80%" align="center">
             <tr>
                 <th>Empresa</th>
@@ -52,7 +55,6 @@
             
              % from datetime import datetime
              % fmt = '%d/%m/%y %H:%M:%S'
-             % ultVigencia = UltAct[0]['fVigencia']
              % d1 = datetime.strptime(ultVigencia,fmt) #Ultima vigencia
              
             %for elemento in Empresas:
