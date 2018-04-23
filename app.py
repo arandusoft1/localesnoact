@@ -25,7 +25,7 @@ def index():
 	
 	for row in rows:
 		empresas.append({"Empresa": row[1],"Sucursal": row[2],"fVigencia": row[3],"CantPrecio": row[4]})
-		fvig = empresas.append(row[3])
+		fvig = empresas.append("fVigencia": row[3])
 		#d1 = datetime.strptime(row[3],fmt)		
 		#diffhora= ((d1-d2).seconds)/3600.0  
                 #diffdias= (d1-d2).days		
