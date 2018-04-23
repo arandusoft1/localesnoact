@@ -1,6 +1,9 @@
 <html>
     <head>
         <h1 align="center">Estado de Vigencia de Empresas</h1>
+	% ultVigencia = UltAct[0]['fVigencia']
+	<h1 align="center">Ultima vigencia = {{ultVigencia}}</h1>
+	
         <style>
             table, th, td {
                 border: 2px solid black;
@@ -42,9 +45,7 @@
         </style>
     </head>
     <body bgcolor=#f1f1c1>
-    	% ultVigencia = UltAct[0]['fVigencia']
-	<strong align="center">Ultima vigencia = {{ultVigencia}}</strong>
-	
+    
         <table style="width:80%" align="center">
             <tr>
                 <th>Empresa</th>
