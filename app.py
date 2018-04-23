@@ -42,7 +42,7 @@ def index():
 	
 	#return repr(fvig)
 	
-	leer = {"Empresas":  empresas , "UltAct": [{"fVigencia": fvig }]}
+	leer = {"Empresas":  empresas , "UltAct": [{"fVigencia": ultact }]}
 		
 
 	#leer = json.loads(open('locales.json').read())	
