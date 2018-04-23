@@ -17,13 +17,26 @@ def index():
 	con.execute("select * from Empresas;")
 	rows = con.fetchall()
 	empresas= []
+	d2 = datetime.strptime("01/01/00 00:00:00",fmt)
 	
 	for row in rows:
 		empresas.append({"Empresa": row[1],"Sucursal": row[2],"fVigencia": row[3],"CantPrecio": row[4]})
+		d1 = datetime.strptime(row[2],fmt)		
+		diffhora= ((d1-d2).seconds)/3600.0  
+                diffdias= (d1-d2).days
+		
+		if diffdias > 0:
+			d2 = d1
+		elif diffdia = 0:
+			if diffhora > 0:
+				d2 = d1
+			
+
+			
 	
 	#return repr(empresas)
 	
-	leer = {"Empresas":  empresas , "UltAct": [{"fVigencia": "05/03/18 00:00:00"}]}
+	leer = {"Empresas":  empresas , "UltAct": [{"fVigencia": d2 }]}
 	
 		
 
