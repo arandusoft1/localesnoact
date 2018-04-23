@@ -14,7 +14,7 @@ bottle.debug(True)
 def index():
 	conn = psycopg2.connect(database='d3fkm1msg7kiub',user='wdtetudvoejjev',password='b7fefda1a504e80018b763ba3d8bcb94804c54dfff9a3372b4a70ee042dadf22', host='ec2-54-83-1-94.compute-1.amazonaws.com')
 	con = conn.cursor()
-	con.execute("select * from Empresas")
+	con.execute("select * from Empresas;")
 	rows = con.fetchall()
 	#empresas= []
 	
