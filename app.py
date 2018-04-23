@@ -27,16 +27,19 @@ def index():
                 diffdias= (d1-d2).days		
 		if diffdias > 0:
 			d2 = d1
+			ultact = row[3]
 		elif diffdia2 = 0:
 			if diffhora > 0:
 				d2 = d1
+				ultact = row[3]
+				
 			
 
 			
 	
 	#return repr(empresas)
 	
-	leer = {"Empresas":  empresas , "UltAct": [{"fVigencia": d2 }]}
+	leer = {"Empresas":  empresas , "UltAct": [{"fVigencia": ultact }]}
 		
 
 	#leer = json.loads(open('locales.json').read())	
