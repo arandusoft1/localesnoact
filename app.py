@@ -21,13 +21,13 @@ def index():
 	
 	for row in rows:
 		empresas.append({"Empresa": row[1],"Sucursal": row[2],"fVigencia": row[3],"CantPrecio": row[4]})
-		d1 = datetime.strptime(row[2],fmt)		
+		d1 = datetime.strptime(row[3],fmt)		
 		diffhora= ((d1-d2).seconds)/3600.0  
                 diffdias= (d1-d2).days
 		
 		if diffdias > 0:
 			d2 = d1
-		elif diffdia = 0:
+		elif diffdia2 = 0:
 			if diffhora > 0:
 				d2 = d1
 			
