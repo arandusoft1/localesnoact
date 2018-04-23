@@ -42,7 +42,7 @@ def index():
 
 			
 	
-	return repr(fvig)
+	#return repr(fvig)
 	
 	leer = {"Empresas":  empresas , "UltAct": [{"fVigencia": fvig }]}
 		
