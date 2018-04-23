@@ -26,7 +26,7 @@ def index():
 		#fvig.append({"fVigencia": row[3]})
 		d1 = datetime.strptime(row[3],fmt)		
 		diffhora= ((d1-d2).seconds)/3600.0  
-                #diffdias= (d1-d2).days		
+                diffdias= (d1-d2).days		
 		#if diffdias > 0:
 		#	d2 = d1
 		#	ultact = row[3]
