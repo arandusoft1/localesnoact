@@ -34,13 +34,13 @@ def index():
 
 			
 	
-	return repr(empresas)
+	#return repr(empresas)
 	
 	leer = {"Empresas":  empresas , "UltAct": [{"fVigencia": d2 }]}
 		
 
 	#leer = json.loads(open('locales.json').read())	
-	#return template('tabla.tpl', leer)
+	return template('tabla.tpl', leer)
 
 if __name__ == '__main__':
 	run(host='0.0.0.0',port=argv[1])
