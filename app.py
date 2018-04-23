@@ -31,7 +31,7 @@ def index():
 		if diffdias > 0:
 			d2 = d1
 			ultact = row[3]
-		elif diffdia2 == 0:
+		elif diffdias == 0:
 			if diffhora > 0:
 				d2 = d1
 				ultact = row[3]
