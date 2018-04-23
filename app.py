@@ -20,13 +20,12 @@ def index():
 	
 	for row in rows:
 		empresas.append({"Empresa": row[1],"Sucursal": row[2],"fVigencia": row[3],"CantPrecio": row[4]})
-		
+	
+	print repr(empresas)
 	#print (empresas)
 	
 	#leer = {"Empresas": [ empresas ], "UltAct": [{"fVigencia": "05/03/18 00:00:00"}]}
 	
-	parsed = json.loads(empresas)
-	return json.dumps(parsed, indent=1, sort_keys=True)
 		
 
 	#leer = json.loads(open('locales.json').read())	
