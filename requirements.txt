@@ -1,2 +1,4 @@
 bottle
 gunicorn
+psycopg2
+psycopg2.extras
