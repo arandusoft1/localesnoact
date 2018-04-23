@@ -18,7 +18,9 @@ def index():
 	rows = con.fetchall()
 	empresas= []
 	fmt = '%d/%m/%y %H:%M:%S'
-	d2 = datetime.strptime("01/01/01 00:00:00",fmt)
+	ultact = "01/01/01 00:00:00"
+	d2 = datetime.strptime(ultact,fmt)
+	
 	
 	for row in rows:
 		empresas.append({"Empresa": row[1],"Sucursal": row[2],"fVigencia": row[3],"CantPrecio": row[4]})
