@@ -3,8 +3,7 @@
 
 from sys import argv
 import bottle
-#import json
-from json import dumps #este es el de prueba
+import json
 from bottle import route,run,Bottle,template
 from datetime import datetime
 import psycopg2, psycopg2.extras
@@ -26,7 +25,10 @@ def index():
 	
 	#leer = {"Empresas": [ empresas ], "UltAct": [{"fVigencia": "05/03/18 00:00:00"}]}
 	
-	return jsonify(empresas)	
+	parsed = json.loads(empresas)
+	return json.dumps(parsed, indent=1, sort_keys=True)
+		
+
 	#leer = json.loads(open('locales.json').read())	
 	#return template('tabla.tpl', leer)
 
