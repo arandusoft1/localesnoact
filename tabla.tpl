@@ -43,7 +43,7 @@
     </head>
     <body bgcolor=#f1f1c1>
     	% ultVigencia = UltAct[0]['fVigencia']
-	<strong>{{ultVigencia}}</strong>
+	<strong>Ultima vigencia = {{ultVigencia}}</strong>
 	
         <table style="width:80%" align="center">
             <tr>
