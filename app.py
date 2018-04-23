@@ -16,11 +16,12 @@ def index():
 	con = conn.cursor()
 	con.execute("select * from Empresas;")
 	rows = con.fetchall()
-	#empresas= []
+	empresas= []
 	
 	for row in rows:
-		# empresas.append({"Empresa": row[1],"Sucursal": row[2],"fVigencia": row[3],"CantPrecio": row[4]})
-		print (row)
+		empresas.append({"Empresa": row[1],"Sucursal": row[2],"fVigencia": row[3],"CantPrecio": row[4]})
+		
+	print (empresas)
 	
 	#leer = {"Empresas": [ empresas ], "UltAct": [{"fVigencia": "05/03/18 00:00:00"}]}
 	
