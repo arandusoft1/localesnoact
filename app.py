@@ -17,6 +17,7 @@ def index():
 	con.execute("select * from Empresas;")
 	rows = con.fetchall()
 	empresas= []
+	fmt = '%d/%m/%y %H:%M:%S'
 	d2 = datetime.strptime("01/01/01 00:00:00",fmt)
 	
 	#for row in rows:
