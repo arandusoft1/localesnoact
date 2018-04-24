@@ -1,0 +1,52 @@
+{
+  "Empresas": [
+    {
+      "Empresa": "XX",
+      "Sucursal": "Resistencia",
+      "fVigencia":  "02/10/10 18:24:00",     
+      "CantPrecio": 100
+    },     
+    {
+      "Empresa": "XY",
+      "Sucursal": "Corrientes",
+      "fVigencia": "26/12/17 00:00:00",
+      "CantPrecio": 80
+    
+    }, 
+    {
+      "Empresa": "XXY",
+      "Sucursal": "Posadas",
+      "fVigencia": "10/2/14 00:00:00",
+      "CantPrecio": 55
+    }, 
+    {
+      "Empresa": "XXX",
+      "Sucursal": "Posadas",
+      "fVigencia": "10/2/14 00:00:00",
+      "CantPrecio": 64
+    }, 
+    {
+      "Empresa": "YXX",
+      "Sucursal": "Curuzu",
+      "fVigencia": "26/12/17 00:00:00",
+      "CantPrecio": 78
+    }, 
+    {
+      "Empresa": "YY",
+      "Sucursal": "Curuzu",
+      "fVigencia": "04/03/18 11:50:00",
+      "CantPrecio": 32
+    }, 
+    {
+      "Empresa": "YYY",
+      "Sucursal": "Posadas",
+      "fVigencia": "05/03/18 00:00:00",
+      "CantPrecio": 77
+    }
+  ],
+  "UltAct": [
+    {
+      "fVigencia": "05/03/18 00:00:00"
+    }
+  ]
+}
